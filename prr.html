@@ -1,0 +1,18 @@
+!DOCTYPE html
+html
+  head
+    titleEntorno Espacialtitle
+    meta name=description content=A-Frame scene with flying stars in space
+    script src=httpsaframe.ioreleases1.2.0aframe.min.jsscript
+    script src=httpscdn.jsdelivr.netnpmaframe-extras@6.1.1distaframe-extras.min.jsscript
+  head
+  body
+    a-scene
+      !-- Estrellas --
+      a-entity particle-system=preset stars; color #FFF; particleCount 2000a-entity
+
+      !-- Cielo Espacial --
+      a-sky color=#000a-sky
+    a-scene
+  body
+html
